@@ -78,42 +78,42 @@ https://en.bitcoin.it/wiki/MtGox/API/HTTP/v2
 *  `money/ticker`
    Get the most recent information for a currency pair.
    **Sample Response:**
-   ```javascript
-    {
-        "result":"success",
-        "data": {
-            "high":       **Currency Object - USD**,
-            "low":        **Currency Object - USD**,
-            "avg":        **Currency Object - USD**,
-            "vwap":       **Currency Object - USD**,
-            "vol":        **Currency Object - BTC**,
-            "last_local": **Currency Object - USD**,
-            "last_orig":  **Currency Object - ???**,
-            "last_all":   **Currency Object - USD**,
-            "last":       **Currency Object - USD**,
-            "buy":        **Currency Object - USD**,
-            "sell":       **Currency Object - USD**,
-            "now":        "1364689759572564"
-        }
-    }
-    ```
+        ```javascript
+         {
+             "result":"success",
+             "data": {
+                 "high":       **Currency Object - USD**,
+                 "low":        **Currency Object - USD**,
+                 "avg":        **Currency Object - USD**,
+                 "vwap":       **Currency Object - USD**,
+                 "vol":        **Currency Object - BTC**,
+                 "last_local": **Currency Object - USD**,
+                 "last_orig":  **Currency Object - ???**,
+                 "last_all":   **Currency Object - USD**,
+                 "last":       **Currency Object - USD**,
+                 "buy":        **Currency Object - USD**,
+                 "sell":       **Currency Object - USD**,
+                 "now":        "1364689759572564"
+             }
+         }
+         ```
 *  `money/ticker_fast`
    Get the most recent information for a currency pair. This method is similar to money/ticker, except it returns less information, and is supposedly lag-free.
    **Sample Response:**
-   ```javascript
-    {
-        "result":"success",
-        "data": {
-            "last_local": **Currency Object - USD**,
-            "last":       **Currency Object - USD**,
-            "last_orig":  **Currency Object - EUR**,
-            "last_all":   **Currency Object - USD**,
-            "buy":        **Currency Object - USD**,
-            "sell":       **Currency Object - USD**,
-            "now":        "1366230242125772"
-        }
-    }
-    ```
+        ```javascript
+         {
+             "result":"success",
+             "data": {
+                 "last_local": **Currency Object - USD**,
+                 "last":       **Currency Object - USD**,
+                 "last_orig":  **Currency Object - EUR**,
+                 "last_all":   **Currency Object - USD**,
+                 "buy":        **Currency Object - USD**,
+                 "sell":       **Currency Object - USD**,
+                 "now":        "1366230242125772"
+             }
+         }
+         ```
 *  `money/trades/fetch`
 *  `money/trades/cancelled`
 *  `money/wallet/history`
