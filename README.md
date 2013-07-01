@@ -49,6 +49,7 @@ https://en.bitcoin.it/wiki/MtGox/API/HTTP/v2
 *  `money/currency`
    Get information for a given currency.
    **Sample Response:**
+
         ```javascript
         {
              "result":"success",
@@ -78,6 +79,7 @@ https://en.bitcoin.it/wiki/MtGox/API/HTTP/v2
 *  `money/ticker`
    Get the most recent information for a currency pair.
    **Sample Response:**
+
         ```javascript
          {
              "result":"success",
@@ -100,6 +102,7 @@ https://en.bitcoin.it/wiki/MtGox/API/HTTP/v2
 *  `money/ticker_fast`
    Get the most recent information for a currency pair. This method is similar to money/ticker, except it returns less information, and is supposedly lag-free.
    **Sample Response:**
+
         ```javascript
          {
              "result":"success",
