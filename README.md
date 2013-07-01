@@ -28,7 +28,13 @@ use Craftblue;
 // obtained from https://mtgox.com/security
 $mtgox = new MTGox('key', 'secret');
 
-// make a call
+// make a call (both do the same thing)
+$mtgox->money_info();
+$mtgox->query('money/info');
+
+// make a call to an underscored endpoint (both do the same thing)
+$mtgox->stream_listPublic();
+$mtgox->query('stream/list_public');
 ```
 
 ## API Overview ##
@@ -60,7 +66,6 @@ https://en.bitcoin.it/wiki/MtGox/API/HTTP/v2
     }
     ```
 *  `money/depth/fetch`
-
 *  `money/depth/full`
 *  `money/idkey`
 *  `money/info`
@@ -73,7 +78,7 @@ https://en.bitcoin.it/wiki/MtGox/API/HTTP/v2
 *  `money/ticker`
    Get the most recent information for a currency pair.
    **Sample Response:**
-   ```json
+   ```js
     {
         "result":"success",
         "data": {
@@ -94,7 +99,7 @@ https://en.bitcoin.it/wiki/MtGox/API/HTTP/v2
     ```
 *  `money/ticker_fast`
    Get the most recent information for a currency pair. This method is similar to money/ticker, except it returns less information, and is supposedly lag-free.
-   ```json
+   ```js
     {
         "result":"success",
         "data": {
