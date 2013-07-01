@@ -1,0 +1,24 @@
+{
+    "name": "craftblue/php-mtgox-api-v2",
+    "type": "library",
+    "description": "An API wrapper around MTGox API v2 that's slightly more sane than some alternatives.",
+    "keywords": ["bitcoin","bitcoins","mtgox","api"],
+    "homepage": "https://github.com/cballou/php-mtgox-api-v2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Corey Ballou",
+            "email": "corey@coreyballou.com",
+            "homepage": "http://www.coreyballou.co",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Mtgox": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+    }
+}
