@@ -1,4 +1,5 @@
-An API wrapper around MTGox API v2 that's slightly more sane than some alternatives.
+An API wrapper around MTGox API v2 that's slightly more sane than some alternatives. If you're 
+interested in bitcoins, MTGox is the API for you.
 
 By sane, I simply mean there's some internal method param validation that occurs to ensure
 you are passing valid values to the API.
