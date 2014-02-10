@@ -196,3 +196,7 @@ If you have any information on these, please consider a PULL request.
    Undocumented.
 
 ## Happy? Please Consider Donating me BTC! ##
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cballou/php-mtgox-api-v2/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
